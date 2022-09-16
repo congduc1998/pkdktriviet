@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+	background: #FFFFFF;
+	font-size: 22px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+.container{
+	max-width: 960px;
+	margin: 0px auto;
+}
+.logo img{
+	max-width: 50px;
+	height: auto;
+}
+.logo{
+	padding: 5px 0px;
+    
+}
+.cha{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0.5rem;
+}
+.menu{
+	display: flex;
+    list-style: none;
+    margin: 5px;
+    padding: 10px 10px;
+    justify-content: center;
+}
+.menu li{
+	position: relative;/* làm chuẩn*/
+}
+.menu li a{
+	color: hwb(40 18% 27%);
+	display: block;
+	padding: 5px 25px;
+	text-decoration: none; /*bỏ gạch chân*/
+    font-size: 25px;
+}
+.menu ul.menucon{
+	position: absolute;
+	padding: 5px 20px;
+	list-style: none;
+	width: 200px;
+	display: none;/*ẩn menu*/
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+/*tác động vào thẻ a của menucon*/
+.menu ul.menucon a{
+	padding: 15px 0px;
+	border-bottom: 1px solid #D7D7D7;
+    font-size: 20px;
+    margin: 5px;
+    text-align: left;
+}
+.menu ul.menucon li:hover a{
+	border-bottom: 1px solid #55BDFF;
+}
+/* chọn li cuối cùng*/
+.menu ul.menucon li:last-child a{
+	border: none;
+}
+/* show menucon*/
+.menu li:hover ul.menucon{
+	display: block;
+}
+.menu>li>a{
+	position: relative;
+}
+/*thiết lập boder khi hover*/
+.menu>li>a::before{
+	content: "";
+	height: 4px;
+	width: 0px;
+	background: #55BDFF;
+	position: absolute;
+	bottom: 0px;
+	left: 0px; 
+	transition: all 0.5s ease-out;
+}
+.menu>li:hover>a::before{
+	width: 100%;
+}
+.menu>li.has-child::after{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f107";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 16px 0px;
+/* hết menu */
+}
+#content{
+    margin-top: 60px;
+    background: url(logo/slider3.jpg);
+    min-height: 480px;
+    width: 100%;
+    margin-top: 90px;
+    background-size: cover;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 3px solid #FFCC66;
+    transition: all 0.5s ease-in-out;
+}
+/* phần user */
+.spam{
+	max-width: 960px;
+    margin: 100px auto;
+    display: block;
+    padding: 5px;
+	text-align: center;
+	background-color: rgb(248, 247, 247);
+}
+.spam img{
+	max-width: 500px;
+	height: auto;
+}
+.home{
+	max-width: 960px;
+	margin: 0px auto;
+}
+.home li{
+	list-style: none;
+	text-align: center;
+}
+.tieude{
+	text-align: center;
+	color: #00CCFF;
+	font-size: 24px;
+}
+.hinh1 img{
+	max-width: 80%;
+	margin: 0px auto;
+}
+/*các user*/
+.user{
+	max-width: 960px;
+	margin: 0px auto;
+    text-align: center;
+}
+.user1{
+	font-size: 200px;
+	color: #000000;
+	margin: 50px 10px;
+	border: 4px solid #55BDFF;
+	display: inline-block;
+	text-align: center;
+}
+.user1 a{
+	font-size: 18px;
+	display: block;
+	margin: 0px auto;
+	border: 2px solid #55BDFF;
+	background-color: #EEEEEE;
+}
+.user1 a h1{
+	color: #55BDFF;
+	margin: 5px 5px;
+}
+.user1 a h3{
+	color: #6699FF;
+	margin: 5px auto;
+	padding: 5px 5px;
+	text-decoration: underline;
+}
+.user2{
+	font-size: 200px;
+	color: #000000;
+	margin: 55px auto;
+	border: 4px solid #55BDFF;
+	display: inline-block;
+	text-align: center;
+}
+.user2 a{
+	font-size: 18px;
+	display: block;
+	margin: 0px auto;
+	border: 2px solid #55BDFF;
+	background-color: #EEEEEE;
+}
+.user2 a h1{
+	color: #55BDFF;
+	margin: 5px 5px;
+}
+.user2 a h3{
+	color: #6699FF;
+	margin: 5px auto;
+	padding: 5px 5px;
+	text-decoration: underline;
+}
+header.sticky{
+    background: #FFFFFF;
+    opacity: 0.9;
+    color: #000;
+    padding: -5px -5px ;
+    box-shadow: 0px 5px 15px #D7D7D7;
+}
+/* đổi màu chữa menu */
+header.sticky .menu a{
+    color: #f70909;
+}
