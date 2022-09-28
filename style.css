@@ -181,9 +181,11 @@ nav {
 #wrapper .sticky .main-menu>li {
     padding: 9px 20px;
 }
-#wrapper .sticky .main-menu>.style{
+
+#wrapper .sticky .main-menu>.style {
     padding: 5px 0px;
 }
+
 #wrapper .sticky .main-menu li a {
     font-size: 14px;
 }
@@ -192,6 +194,7 @@ nav {
     margin-top: 9px;
     background-color: #fff;
 }
+
 /* ---===///thiết lập wr-content\\\===--- */
 #wp-content .content {
     flex-basis: 80%;
@@ -200,28 +203,35 @@ nav {
     padding: 20px;
     line-height: 1.5;
 }
-.text-indent{
+
+.text-indent {
     text-indent: 20px;
 }
-.list-text>li{
+
+.list-text>li {
     padding: 5px 0px;
     list-style: none;
     font-size: 24px;
 }
-.text-style{
+
+.text-style {
     display: inline-block;
 }
-.text-style span{
-font-weight: bold;
+
+.text-style span {
+    font-weight: bold;
 }
-.list-text .fa-circle-check{
+
+.list-text .fa-circle-check {
     color: #00CC33;
     padding: 0px 5px;
 }
-#wp-content .content p{
+
+#wp-content .content p {
     font-size: 20px;
 }
-.content .hinh1{
+
+.content .hinh1 {
     display: block;
     max-width: 100%;
     background: url(Img/3.jpg) no-repeat;
@@ -229,12 +239,14 @@ font-weight: bold;
     background-size: cover;
     margin: 15px 0px;
 }
-.content .user{
+/* ---===///thiết lập user\\\===--- */
+.content .user {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.content .user .iduser{
+
+.content .user .iduser {
     display: block;
     flex-basis: 20%;
     margin: 10px 0px;
@@ -244,23 +256,52 @@ font-weight: bold;
     background-color: #F2F2F2;
     box-shadow: 5px 8px 8px #0096FF;
 }
-.user .iduser .fa-user-nurse{
+
+.user .iduser .fa-user-nurse {
     font-size: 80px;
     color: #0096FF;
     margin: 10px;
-    
+
 }
-.user .iduser>h3{
+
+.user .iduser>h3 {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 15px;
 }
-.user .iduser>p{
+
+.user .iduser>p {
     font-size: 11px;
     color: #5CB8E4;
 }
+
+/* ---===///thiết lập container\\\===--- */
+.container>ul>li {
+    list-style: none;
+    padding: 2px 0px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #8758FF;
+}
+.container>ul>li>.fa-check{
+    color: #00CC33;
+    padding: 0px 10px;
+}
+.lab .device{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.device .au680{
+    flex-basis: 20%;
+    background-color: #00D7FF;
+}
+.device .au680 img{
+    max-width: 250px;
+}
+
 /* ===***---///style-all\\\---***===*/
-.style-h1{
+.style-h1 {
     margin: 10px;
     text-align: center;
     background-color: #87A2FB;
@@ -269,4 +310,9 @@ font-weight: bold;
     color: #EEEEEE;
     margin-bottom: 15px;
     border-right: 15px solid red;
+}
+
+.text-p {
+    line-height: 1.5;
+    text-indent: 20px;
 }
