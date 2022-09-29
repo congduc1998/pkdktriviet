@@ -316,6 +316,10 @@ nav {
     height: 150px;
 }
 /* ---===///thiết lập SH\\\===--- */
+#sh{
+    display: flex;
+    justify-content: space-around;
+}
 ol.sh{
     margin: 5px 0px;
     margin-left: 30px;
@@ -324,6 +328,10 @@ ol.sh{
 .sh li{
     font-weight: bold;
     text-transform: uppercase;
+}
+.lab span img{
+    max-width: 400px;
+    min-height: 200px;
 }
 /* ===***---///style-all\\\---***===*/
 .style-h1 {
