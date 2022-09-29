@@ -144,17 +144,27 @@ nav {
     background-position-y: -200px;
 }
 
-#hear {
-    max-width: 960px;
-    margin: 0px auto;
-    padding: 25px 0px;
+#head{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #AFEEEE;
 }
 
-#hear>h1 {
-    color: #33CCFF;
-    font-size: 50px;
+#hear {
+    border-radius: 15px;
+    border: 2px solid #00BFFF;
+    color: 	#F0FFF0;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+    width: 50%;
+    background-color: 	#87CEEB;
+    box-shadow: 10px 5px 10px #00BFFF;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 /* ---===///thiết lập .sticky\\\===--- */
@@ -351,7 +361,38 @@ ol.sh {
 /* ---===///thiết lập sidebar\\\===--- */
 .sidebar {
     flex-basis: 20%;
-    margin: 15px 20px;
+    margin: 0px 20px;
+    font-weight: bold;
+    background-color: #B0E0E6;
+}
+
+.sidebar h1 {
+    margin: 15px 0px;
+    background-color: #87A2FB;
+    padding: 15px 0px;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    color: red;
+    border-bottom: 5px solid red;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border: 2px solid #707070;
+}
+
+.sidebar ul li a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: #6A5ACD;
+    font-size: 25px;
 }
 
 /* ===***---///style-all\\\---***===*/
@@ -383,20 +424,38 @@ ol.sh {
     background-color: #87A2FB;
     border-left: 10px solid red;
 }
+
 /* ===***---///style-Phone\\\---***===*/
 #take-care-of {
     margin: 15px;
     position: fixed;
-    right: 0;
-    bottom: 0;
+    right: 15px;
+    bottom: 20px;
 }
-#call{
-    border-bottom:2px solid #0000FF;
-    padding: 5px;
+
+#call {
+    display: flex;
+    border-radius: 15px;
+    background-color: #707070;
+    padding-bottom: 8px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
+
+#call>p {
+    display: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 1em;
+    padding: 15px;
+    color: #fff;
+}
+
 #call .fa-phone {
-    background-color: 	#F08080;
-    font-size: 50px;
+    background-color: #F08080;
+    font-size: 20px;
     color: #FFF;
     border: 2px solid #FF0000;
     border-radius: 15px;
@@ -406,6 +465,28 @@ ol.sh {
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
-#call:hover .fa-phone{
+
+#call:hover {
+    background-color: #00CC33;
+}
+
+#call:hover>p {
+    display: block;
+}
+
+#call:hover .fa-phone {
     background-color: #FF0000;
+    position: relative;
+    top: 10px;
+}
+/* ===***---///style-MARQUEE\\\---***===*/
+.effect {
+    color: #fff;
+    background-color: red;
+    font-size: 1.5em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-left: 20px solid #E9967A;
+    border-right: 20px solid #E9967A;
 }
