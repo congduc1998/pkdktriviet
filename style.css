@@ -157,12 +157,6 @@ nav {
     text-transform: uppercase;
 }
 
-/* ---===///thiết lập Bg-img\\\===--- */
-#wp-content {
-    display: flex;
-    margin-top: 15px;
-}
-
 /* ---===///thiết lập .sticky\\\===--- */
 #wrapper .sticky {
     background-color: #fff;
@@ -197,6 +191,11 @@ nav {
 }
 
 /* ---===///thiết lập wr-content\\\===--- */
+#wp-content {
+    display: flex;
+    margin-top: 15px;
+}
+
 #wp-content .content {
     flex-basis: 80%;
     min-height: 600px;
@@ -272,12 +271,22 @@ nav {
 .user .iduser>h3 {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
+    padding: 0px 3px;
 }
 
 .user .iduser>p {
     font-size: 11px;
-    color: #5CB8E4;
+    color: #0000FF;
+}
+
+.user .iduser:hover {
+    background-color: #87CEFA;
+    box-shadow: 5px 8px 8px #87CEFA;
+}
+
+.user .iduser:hover .fa-user-nurse {
+    color: #0000FF;
 }
 
 /* ---===///thiết lập container\\\===--- */
@@ -285,7 +294,7 @@ nav {
     list-style: none;
     padding: 2px 0px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     color: #8758FF;
 }
 
@@ -308,31 +317,43 @@ nav {
     padding: 15px 10px;
     border: 2px solid #CCCCCC;
     text-align: center;
-    background-color: 	#F8F8FF;
+    background-color: #F8F8FF;
 }
 
 .device .sinhhoa li img {
     width: 250px;
     height: 150px;
 }
+
 /* ---===///thiết lập SH\\\===--- */
-#sh{
+#sh {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 15px 20px;
 }
-ol.sh{
+
+ol.sh {
     margin: 5px 0px;
     margin-left: 30px;
-
 }
-.sh li{
+
+.sh li {
     font-weight: bold;
     text-transform: uppercase;
 }
-.lab span img{
+
+.lab span img {
     max-width: 400px;
     min-height: 200px;
+    margin-right: 50px;
 }
+
+/* ---===///thiết lập sidebar\\\===--- */
+.sidebar {
+    flex-basis: 20%;
+    margin: 15px 20px;
+}
+
 /* ===***---///style-all\\\---***===*/
 .style-h1 {
     margin: 10px;
@@ -361,4 +382,30 @@ ol.sh{
     color: #fff;
     background-color: #87A2FB;
     border-left: 10px solid red;
+}
+/* ===***---///style-Phone\\\---***===*/
+#take-care-of {
+    margin: 15px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+#call{
+    border-bottom:2px solid #0000FF;
+    padding: 5px;
+}
+#call .fa-phone {
+    background-color: 	#F08080;
+    font-size: 50px;
+    color: #FFF;
+    border: 2px solid #FF0000;
+    border-radius: 15px;
+    padding: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+#call:hover .fa-phone{
+    background-color: #FF0000;
 }
