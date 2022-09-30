@@ -51,7 +51,7 @@
         </div>
         <div id="head">
             <div id="hear">
-                <marquee behavior="alternate" direction="" scrollamount="20">
+                <marquee behavior="alternate" direction="" scrollamount="20" a>
                     <h1>Trí việt clinic</h1>
                 </marquee>
             </div>
@@ -243,7 +243,7 @@
                 <h1>Thông tin chi chi tiết</h1>
                 <div class="about">
                     <div class="list-about">
-                        <ul>
+                        <ul class="list">
                             <li><a href="">Bảng giá khám</a></li>
                             <li><a href="">Bảng giá xét nghiệm</a></li>
                             <li><a href="">Bảng giá lấy máu tại nhà</a></li>
@@ -252,6 +252,77 @@
                             <li><a href="">Tra cứu thông tin kết quả</a></li>
                             <li><a href="">Đặt lịch tư vấn miễn phí</a></li>
                         </ul>
+                        <div class="timer">
+                            <style>
+                                .timer {
+                                    background-color: #CCFFFF;
+                                    padding: 10px;
+
+                                }
+
+                                .timer h2 {
+                                    color: red;
+                                    text-transform: uppercase;
+                                    text-align: center;
+                                }
+
+                                .timer span {
+                                    display: block;
+                                    font-size: 20px;
+                                    text-align: center;
+                                }
+                            </style>
+                            <h2>Thời gian làm việc</h2>
+                            <span>- Từ 7h30 đến 21h00 hàng tuần</span>
+                            <span>- Chủ nhật từ 7h30 đến 12h00</span>
+                        </div>
+                        <!-- === Thiết lập produc-sidebar ===-->
+                        <div id="product">
+                            <ul class="item">
+                                <li>
+                                    <a href=""><img src="Img/6.jpg" alt="hinh6"></a>
+                                    <p style="color:#0066FF; margin: 5px 0px; text-align: center;">Luôn có Bác Sĩ trực
+                                        trong thời gian làm việc.</p>
+                                    <span style="color: #339933; font-size: 14px; margin:0px 5px;">Được tư vấn tận tính
+                                        khi quý khách đến với Phòng Khám.</span>
+                                </li>
+                                <li>
+                                    <a href=""><img src="Img/10.jpg" alt="hinh10"></a>
+                                    <p style="color:#0066FF; margin: 5px 0px;">Nhập thông tin nha chóng và chính xác.
+                                    </p>
+                                    <span style="color: #339933; font-size: 14px;">Không phải đợi chờ lâu vào là được
+                                        gặp Bác Sĩ ngay.</span>
+                                </li>
+                                <li>
+                                    <a href=""><img src="Img/12.jpg" alt="hinh12"></a>
+                                    <p style="color:#0066FF; margin: 5px 0px; text-align: center;">Cơ sở vật chất điều
+                                        hòa không khí.</p>
+                                    <span style="color: #339933; font-size: 14px; margin:0px 5px;">Hệ thống làm lạnh âm
+                                        trần giúp không khí thông thoáng.</span>
+                                </li>
+                                <li>
+                                    <a href=""><img src="Img/11.jpg" alt="hinh11"></a>
+                                    <p style="color:#0066FF; margin: 5px 0px; text-align: center;">Cơ sở vật chất trang
+                                        thiết bị.</p>
+                                    <span style="color: #339933; font-size: 14px; margin:0px 5px;">Được vệ sinh sạch sẽ
+                                        và gọn gàng.</span>
+                                </li>
+                                <li>
+                                    <a href=""><img src="Img/13.jpg" alt="hinh13"></a>
+                                    <p style="color:#0066FF; margin: 5px 0px; text-align: center;">Cơ sở vật chất hệ
+                                        thống âm thanh loa âm trần</p>
+                                    <span style="color: #339933; font-size: 14px; margin:0px 5px;">Giúp quý khách thoải
+                                        mái nhất khi vào phòng khám.</span>
+                                </li>
+                                <li>
+                                    <a href=""><img src="Img/14.jpg" alt="hinh13"></a>
+                                    <p style="color:#0066FF; margin: 5px 0px; text-align: center;">Đội ngũ bảo vệ nhiệt
+                                        tình</p>
+                                    <span style="color: #339933; font-size: 14px; margin:0px 5px;">Giúp quý khách yên
+                                        tâm vè tài sản khi đến với phòng khám.</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -260,17 +331,17 @@
         </div>
         <div class="effect">
             <MARQUEE>
-                <STRONG>Trí Việt Clinic xin chào quý khách: Để được tư vấn miễn phí xin vui lòng kiên hệ qua Hotline:
+                <STRONG>Trí Việt Clinic xin chào quý khách: Để được tư vấn miễn phí xin vui lòng liên hệ qua Hotline:
                     1900.98.98.81 Địa chỉ: 51 Tân Mỹ P. Tân Phú Q. 7 Tp HCM.</STRONG>
             </MARQUEE>
         </DIV>
         <script src="https://code.jquery.com/jquery-3.6.1.js">
         </script>
-        <!-- <script>
+        <script>
         $(document).ready(function () {
-            alert("Trí Việt Clinic xin chào");
+            alert("Trí Việt Clinic xin chào quý khách");
         })
-    </script> -->
+    </script>
         <script>
             $(document).ready(function () {
                 $(window).scroll(function () {

@@ -137,11 +137,11 @@ nav {
 
 /* ---===///thiết lập Bg-img\\\===--- */
 #bg-img {
-    background: url(Img/7.jpg) no-repeat;
+    background: url(Logo/bsgd-1512466079893.jpg) no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 400px;
-    background-position-y: -200px;
+    min-height: 600px;
+    background-position-y: -300px;
 }
 
 #head{
@@ -149,11 +149,17 @@ nav {
     display: flex;
     justify-content: center;
     background-color: #AFEEEE;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 56px;
 }
 
 #hear {
     border-radius: 15px;
-    border: 2px solid #00BFFF;
+    border: 2px solid #57d5ff;
     color: 	#F0FFF0;
     font-size: 20px;
     font-weight: bold;
@@ -166,7 +172,16 @@ nav {
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
-
+#head:hover{
+    border: 2px solid #99FF66;
+    background-color: #c4fdc4;
+    box-shadow: 10px 5px 10px#43ff43;
+}
+#hear:hover{
+    border: 2px solid #00BFFF;
+    background-color: 	#5ccbf7;
+    box-shadow: 10px 5px 10px #00a4db;
+}
 /* ---===///thiết lập .sticky\\\===--- */
 #wrapper .sticky {
     background-color: #fff;
@@ -377,24 +392,54 @@ ol.sh {
     border-bottom: 5px solid red;
 }
 
-.sidebar ul {
+.sidebar .list {
     list-style: none;
     padding: 0;
 }
 
-.sidebar ul li {
+.sidebar .list li {
     margin: 10px 0px;
     padding: 10px 0px;
-    border: 2px solid #707070;
+    border: 2px solid #d6d6d6;
+    background-color: #8ad8ff;
 }
 
-.sidebar ul li a {
+.sidebar .list li a {
     padding-left: 30px;
     text-decoration: none;
     color: #6A5ACD;
     font-size: 25px;
 }
-
+.sidebar .list li:hover{
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border: 2px solid #b8b8b8;
+    background-color: #4fc1fa;
+    border-left: 10px solid red;
+    color: white;
+}
+.sidebar .list li:hover a{
+    color: white;
+}
+#product{
+    width: 100%;
+}
+#product .item li{
+    padding: 5px 0px;
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+    list-style: none;
+    border: 2px solid 	#9999FF;
+    background-color: #FFF;
+}
+#product .item li img{
+    width: 300px;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    min-height: 200px;
+}
 /* ===***---///style-all\\\---***===*/
 .style-h1 {
     margin: 10px;
