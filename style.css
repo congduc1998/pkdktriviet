@@ -1194,7 +1194,7 @@ ol.sh {
 
     .main-menu li {
         position: relative;
-        padding: 15px 20px;
+        padding: 16px 5px;
     }
 
     .main-menu>li>a {
@@ -1293,8 +1293,8 @@ ol.sh {
         background: url(Logo/bsgd-1512466079893.jpg) no-repeat;
         background-size: cover;
         width: 100%;
-        min-height: 200px;
-        background-position-y: -300px;
+        min-height: 300px;
+        background-position-y: -100px;
     }
 
     #head {
@@ -1317,7 +1317,7 @@ ol.sh {
         font-size: 14px;
         font-weight: bold;
         text-transform: uppercase;
-        width: 75%;
+        width: 90%;
         background-color: #2799f4;
         box-shadow: 10px 5px 10px #00BFFF;
         -webkit-border-radius: 15px;
@@ -1356,7 +1356,7 @@ ol.sh {
     }
 
     #wrapper .sticky .main-menu>li {
-        padding: 9px 20px;
+        padding: 9px 10px;
     }
 
     #wrapper .sticky .main-menu>.style {
@@ -1631,12 +1631,12 @@ ol.sh {
         margin: 10px;
         text-align: center;
         background-color: #4db2e1;
-        padding: 5px 0px;
+        padding: 10px 0px;
         text-transform: uppercase;
         color: #EEEEEE;
         margin-bottom: 15px;
         border-right: 15px solid red;
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .text-p {
@@ -1778,12 +1778,12 @@ ol.sh {
 
     .main-menu li {
         position: relative;
-        padding: 15px 20px;
+        padding: 5px 0px;
     }
 
     .main-menu>li>a {
         display: block;
-        margin: 10px 5px;
+        margin: 5px 5px;
         text-decoration: none;
         font-size: 12px;
         text-transform: uppercase;
@@ -1840,7 +1840,7 @@ ol.sh {
         position: absolute;
         width: 200px;
         list-style: none;
-        margin-top: 16px;
+        margin-top: 5px;
         display: none;
         border: 2px solid rgb(204, 204, 204);
         padding: 0px 5px;
@@ -1878,7 +1878,7 @@ ol.sh {
         background-size: cover;
         width: 100%;
         min-height: 450px;
-        background-position-y: -50px;
+        background-position-y: -20px;
     }
 
     #head {
@@ -1901,7 +1901,7 @@ ol.sh {
         font-size: 14px;
         font-weight: bold;
         text-transform: uppercase;
-        width: 80%;
+        width: 100%;
         background-color: #2799f4;
         box-shadow: 10px 5px 10px #00BFFF;
         -webkit-border-radius: 15px;
@@ -1943,7 +1943,7 @@ ol.sh {
     }
 
     #wrapper .sticky .main-menu>li {
-        padding: 9px 20px;
+        padding: 5px 8px;
     }
 
     #wrapper .sticky .main-menu>.style {
@@ -1951,7 +1951,7 @@ ol.sh {
     }
 
     #wrapper .sticky .main-menu li a {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     #wrapper .sticky .main-menu .sub-menu {
